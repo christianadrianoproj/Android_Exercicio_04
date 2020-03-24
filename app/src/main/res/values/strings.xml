@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exercício 04</string>
+    <string name="lblTexto">Relatório de Alunos</string>
+    <string name="btTexto">Gerar Relatório</string>
+    <string name="radio_nomeAlunosAprovado">Nome dos alunos aprovado</string>
+    <string name="radio_MediaTurmaProvas">Média da turma em cada uma das provas</string>
+    <string name="radio_NumeroAlunosAprovadosReprovados">Número de alunos aprovados e reprovados</string>
+    <string name="radio_NomeMelhorAlunoTurma">Nome do melhor aluno da turma</string>
+    <string name="radio_NomeMelhorAlunoCadaProva">Nome do melhor aluno em cada prova</string>
+</resources>

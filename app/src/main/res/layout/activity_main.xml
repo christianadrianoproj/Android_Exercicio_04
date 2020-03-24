@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:paddingTop="24dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rg_opcao_relatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/rb_nomeAlunosAprovado">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/lblTexto" />
+
+        <RadioButton
+            android:id="@+id/rb_nomeAlunosAprovado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/radio_nomeAlunosAprovado" />
+
+        <RadioButton
+            android:id="@+id/rb_MediaTurmaProvas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/radio_MediaTurmaProvas" />
+
+        <RadioButton
+            android:id="@+id/rb_NumeroAlunosAprovadosReprovados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/radio_NumeroAlunosAprovadosReprovados" />
+
+        <RadioButton
+            android:id="@+id/rb_NomeMelhorAlunoTurma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/radio_NomeMelhorAlunoTurma" />
+
+        <RadioButton
+            android:id="@+id/rb_NomeMelhorAlunoCadaProva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/radio_NomeMelhorAlunoCadaProva" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_relatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btTexto"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        />
+</LinearLayout>
